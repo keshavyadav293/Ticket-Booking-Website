@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ticket Booking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-34033.jpg");
+      s
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    header {
+      background-color: #333333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 24px;
+
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: black;
+    }
+
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      color: black;
+    }
+
+    button {
+      background: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><b></b>Event Management and Ticket Booking Website<b></h1>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="ticket_booking.html">Ticket Booking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <br>
+  <br>
+  <style>
+    .container {
+      background-color: blueviolet;
+    }
+  </style>
+  <div class="container">
+    <h1>Book Your Ticket</h1>
+    <form>
+      <h3> <label for="name">Name:</label></h3>
+      </h4><input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <h3><label for="destination">Destination:</label></h3>
+      <select id="destination" name="destination" required>
+        <option value="None">None</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Jalandhar">Jalandhar</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Jaipur">Jaipur</option>
+        <option value="Chennai">Chennai</option>
+      </select>
+
+      <h3><label for="date">Date of Travel:</label></h3>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Book Ticket</button>
+    </form>
+  </div>
+</body>
+
+</html>
